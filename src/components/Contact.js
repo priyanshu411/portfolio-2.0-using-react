@@ -1,5 +1,5 @@
 import Preloader from './PreLoader';
-import React,{ useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 function Contact() {
 
     const [style, setStyle] = useState(true);
@@ -18,10 +18,11 @@ function Contact() {
                     <div className="row">
                         <form
                             className="col s12 m8 offset-m2"
-                            name="portfolio contact"
+                            name="portfolio-contact"
                             method="POST"
-                            data-netlify="true"
                         >
+                            <input type="hidden" name="form-name" value="portfolio-contact" />
+
                             <div className="row">
                                 <div className="input-field col s12">
                                     <i className="material-icons prefix">person_outline</i>
@@ -56,12 +57,10 @@ function Contact() {
                                     />
                                     <label htmlFor="message">Message</label>
                                 </div>
-                                <div className="col s12" data-netlify-recaptcha="true"></div>
                                 <div className="center-align">
                                     <button
                                         className="btn waves-effect waves-light btn-2"
                                         type="submit"
-                                        name="action"
                                     >
                                         Send
                                         <i className="material-icons right">send</i>
