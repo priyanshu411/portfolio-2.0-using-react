@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="351px" height="351px" preserveAspectRatio="xMidYMid" version="1.1" viewBox="-47.5 0 351 351" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<path id="b" d="m1.2527 280.73 1.6056-3.1308 99.353-188.52-44.15-83.475c-3.6693-6.8912-12.987-5.1345-14.191 2.5797l-42.617 272.54z"/>
+<filter id="d" x="-50%" y="-50%" width="200%" height="200%">
+<feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="17.5"/>
+<feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+<feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+<feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+</filter>
+<path id="a" d="m134.42 148.97 32.039-32.812-32.039-61.007c-3.0423-5.7911-10.433-6.3979-13.443-0.59004l-17.705 34.109-0.52933 1.7437 31.678 58.557z"/>
+<filter id="c" x="-50%" y="-50%" width="200%" height="200%">
+<feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="3.5"/>
+<feOffset dx="1" dy="-9" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+<feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+<feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.09 0"/>
+</filter>
+</defs>
+<path d="m0 283 2.1225-2.972 100.4-190.51 0.21206-2.0168-44.261-83.137c-3.7082-6.9642-14.148-5.2034-15.364 2.5925l-43.114 276.05z" fill="#FFC24A"/>
+<use fill="#FFA712" fill-rule="evenodd" xlink:href="#b"/>
+<use fill="black" filter="url(#d)" xlink:href="#b"/>
+<path d="m135 150.38 32.955-33.751-32.965-62.93c-3.1293-5.9568-11.867-5.974-14.963-2e-7l-17.612 33.589v2.8607l32.584 60.232z" fill="#F4BD62"/>
+<use fill="#FFA50E" fill-rule="evenodd" xlink:href="#a"/>
+<use fill="black" filter="url(#c)" xlink:href="#a"/>
+<polygon points="0 283 0.9621 282.03 4.4577 280.61 132.94 152.61 134.56 148.18 102.51 87.105" fill="#F6820C"/>
+<path d="m139.12 347.55 116.27-64.848-33.204-204.49c-1.0386-6.3981-8.888-8.9275-13.467-4.3399l-208.72 209.13 115.61 64.548c7.3062 4.0794 16.204 4.0814 23.513 0.005732" fill="#FDE068"/>
+<path d="m254.35 282.16-32.952-202.94c-1.0308-6.3495-7.5581-8.977-12.103-4.4242l-208.01 207.81 114.34 63.909c7.2507 4.0485 16.081 4.0504 23.334 0.005688l115.39-64.355z" fill="#FCCA3F"/>
+<path d="m139.12 345.64c-7.3081 4.0756-16.206 4.0737-23.513-0.005731l-114.68-63.621-0.93116 0.98332 115.61 64.548c7.3062 4.0794 16.204 4.0814 23.513 0.005732l116.27-64.848-0.28466-1.7519-115.99 64.689z" fill="#EEAB37"/>
+</svg>
