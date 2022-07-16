@@ -3,6 +3,7 @@ import cImg from "../images/skills-image/c.svg"
 import htmlImg from "../images/skills-image/html.svg"
 import cssImg from "../images/skills-image/css.svg"
 import jsImg from "../images/skills-image/js.svg"
+import reactImg from "../images/skills-image/react.svg"
 import bootstrapImg from "../images/skills-image/bootstrap.svg"
 import MaterializeImg from "../images/skills-image/materializecss.svg"
 import firebaseImg from "../images/skills-image/firebase.svg"
@@ -27,6 +28,10 @@ const skill = [{
 {
     tech: 'JavaScript',
     img: jsImg
+},
+{
+    tech: 'React',
+    img: reactImg
 },
 {
     tech: 'Bootstrap',
