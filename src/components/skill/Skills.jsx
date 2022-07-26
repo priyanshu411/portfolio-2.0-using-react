@@ -8,7 +8,7 @@ function Skills() {
     useEffect(() => {
         setTimeout(() => {
             setStyle(false);
-        }, 1200);
+        }, 500);
     }, []);
 
     return (

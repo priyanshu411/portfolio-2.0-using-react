@@ -13,7 +13,7 @@ function About() {
     useEffect(() => {
         setTimeout(() => {
             setStyle(false);
-        }, 1500);
+        }, 500);
     }, []);
 
     return (
