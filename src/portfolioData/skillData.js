@@ -5,7 +5,7 @@ import cssImg from "../images/skills-image/css.svg"
 import jsImg from "../images/skills-image/js.svg"
 import reactImg from "../images/skills-image/react.svg"
 import bootstrapImg from "../images/skills-image/bootstrap.svg"
-import MaterializeImg from "../images/skills-image/materializecss.svg"
+import materializeImg from "../images/skills-image/materializecss.svg"
 import firebaseImg from "../images/skills-image/firebase.svg"
 import dbmsImg from "../images/skills-image/dbms.svg"
 
@@ -39,7 +39,7 @@ const skill = [{
 },
 {
     tech: 'Materialize',
-    img: MaterializeImg
+    img: materializeImg
 },
 {
     tech: 'Firebase',
