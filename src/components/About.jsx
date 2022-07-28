@@ -1,6 +1,7 @@
 import main from '../images/main.svg';
 import { Link } from "react-router-dom";
 import Preloader from './PreLoader'
+import Projects from './project/Projects';
 import React, { useState, useEffect } from 'react';
 function About() {
     
@@ -49,6 +50,7 @@ function About() {
                     </div>
                 </div>
             </main>
+            <Projects></Projects>
         </React.Fragment>
     );
 }
