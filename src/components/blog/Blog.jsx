@@ -9,6 +9,7 @@ function Blog() {
         setTimeout(() => {
             setStyle(false);
         }, 500);
+        window.scrollTo(0, 0);
     }, []);
 
     return (
