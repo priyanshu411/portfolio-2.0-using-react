@@ -3,7 +3,7 @@ import covidImg from '../images/projects-image/slot-finder.png'
 import collegeestImg from '../images/projects-image/college-Fest.png'
 import tutorImg from '../images/projects-image/tutor-finder.png'
 import sgpaCalcImg from '../images/projects-image/sgpa-calculater.png'
-import diceImg from '../images/projects-image/roll-dice.png'
+import mathGame from '../images/projects-image/math-game.png'
 import semImg from '../images/projects-image/sem-marksheet.png';
 
 const projectDetail = [
@@ -54,13 +54,13 @@ const projectDetail = [
         detail: ["Student enter their subjects marks and credits and get SGPA.", "Sgpa calculater for my college students (School of Computer Science and IT,DAVV)"]
     },
     {
-        title: "Roll Dice",
-        img: diceImg,
-        link: "https://rooldice.netlify.app/",
+        title: "Math game",
+        img: mathGame,
+        link: "https://mathpuzzle.netlify.app/",
         linkTitle: "Live",
-        code: "https://github.com/priyanshu411/Dice",
-        tech: ["HTML", "CSS", "JS"],
-        detail: ["Play game with this dice 🎲"]
+        code: "https://github.com/priyanshu411/math-game",
+        tech: ["React Js", "Materialize CSS"],
+        detail: ["A simple mathematical operation game"]
     },
     {
         title: "Semester Marksheet",
