@@ -1,10 +1,10 @@
-import smartQuizImg from '../images/projects-image/smart-quiz.png'
-import covidImg from '../images/projects-image/slot-finder.png'
-import collegeestImg from '../images/projects-image/college-Fest.png'
-import tutorImg from '../images/projects-image/tutor-finder.png'
-import sgpaCalcImg from '../images/projects-image/sgpa-calculater.png'
+import smartQuizImg from '../images/projects-image/smart-quiz.jpg'
+import covidImg from '../images/projects-image/slot-finder.jpg'
+import collegeestImg from '../images/projects-image/college-Fest.jpg'
+import tutorImg from '../images/projects-image/tutor-finder.jpg'
+import sgpaCalcImg from '../images/projects-image/sgpa-calculater.jpg'
 import mathGame from '../images/projects-image/math-game.png'
-import semImg from '../images/projects-image/sem-marksheet.png';
+import semImg from '../images/projects-image/sem-marksheet.jpg';
 
 const projectDetail = [
     {
@@ -13,8 +13,8 @@ const projectDetail = [
         link: "https://smart-quiz.netlify.app/",
         linkTitle: "Live",
         code: "https://github.com/priyanshu411/Smart-Quiz",
-        tech: ["HTML", "CSS", "JS", "Firebase", "Materialize CSS"],
-        detail: ["Quiz web application where you can play java ,html ,css ,js etc programming language quiz and test your skills", "Admin can add ,update ,read questions after login with his email password"]
+        tech: ["HTML", "CSS", "JS", "Firebase", "Materialize"],
+        detail: ["Users can play programming language quiz and test skills","50+ Students use this application"]
     },
     {
         title: "Covid-19 vaccine slot finder",
@@ -23,8 +23,16 @@ const projectDetail = [
         linkTitle: "Live",
         code: "https://github.com/priyanshu411/Covid-19-vaccine-slot-finder",
         tech: ["HTML", "CSS", "JS", "Bootstrap", "API"],
-        detail: ["User can find vaccine slot easily after selecting her state"
-            , "This website use Co-WIN Public API for find Vaccine slot easily."]
+        detail: ["User can find vaccine slot easily after selecting her state"]
+    },
+    {
+        title: "Sgpa Calculater",
+        img: sgpaCalcImg,
+        link: "https://sgpa-scsit.netlify.app/",
+        linkTitle: "Live",
+        code: "https://github.com/priyanshu411/sgpa-calculater",
+        tech: ["HTML", "CSS", "JS", "Materialize"],
+        detail: ["Student enter their subjects marks and credits and get SGPA.","100+ Students use this application"]
     },
     {
         title: "College fest Management",
@@ -33,7 +41,7 @@ const projectDetail = [
         linkTitle: "Watch",
         code: "https://github.com/priyanshu411/College-fest-Management",
         tech: ["HTML", "CSS", "JS", "JAVA", "MySql"],
-        detail: ["By using this application student can register, login and participate in events.", "Admin can manage events and get student participation detail easily."]
+        detail: ["Students can register, login and participate in events."]
     },
     {
         title: "Tutor finder",
@@ -42,16 +50,7 @@ const projectDetail = [
         linkTitle: "Watch",
         code: "https://github.com/priyanshu411/Tutor-Finder",
         tech: ["HTML", "CSS", "JS", "Bootstrap", "JAVA", "MySql"],
-        detail: ["Students or parents can find highly qualified tutors at affordable prices through Online and contact with teacher through online/offline."]
-    },
-    {
-        title: "Sgpa Calculater",
-        img: sgpaCalcImg,
-        link: "https://sgpa-scsit.netlify.app/",
-        linkTitle: "Live",
-        code: "https://github.com/priyanshu411/sgpa-calculater",
-        tech: ["HTML", "CSS", "JS", "Materialize CSS"],
-        detail: ["Student enter their subjects marks and credits and get SGPA.", "Sgpa calculater for my college students (School of Computer Science and IT,DAVV)"]
+        detail: ["Students or parents can find highly qualified tutors by using this application."]
     },
     {
         title: "Math game",
@@ -59,7 +58,7 @@ const projectDetail = [
         link: "https://mathpuzzle.netlify.app/",
         linkTitle: "Live",
         code: "https://github.com/priyanshu411/math-game",
-        tech: ["React Js", "Materialize CSS"],
+        tech: ["React Js", "Materialize"],
         detail: ["A simple mathematical operation game"]
     },
     {
