@@ -10,7 +10,7 @@ function Projects() {
         setTimeout(() => {
             setStyle(false);
         }, 500);
-        window.scrollTo(0, 0);
+        window.scrollTo(0, 160);
     }, []);
 
     return (
@@ -21,13 +21,11 @@ function Projects() {
             <section id="project">
                 <div>
                     <h4 className="center-align txt-col1 heading">My Projects</h4>
-                    <div className="row">
-                        {
-                            projectDetail.map((data, i) => {
-                                return <ProjectCard prjDetail={data} key={i}></ProjectCard>
-                            })
-                        }
-                    </div>
+                    {
+                        projectDetail.map((data, i) => {
+                            return <ProjectCard prjDetail={data} key={i}></ProjectCard>
+                        })
+                    }
                 </div>
             </section>
         </React.Fragment>

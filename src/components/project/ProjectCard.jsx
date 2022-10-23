@@ -1,21 +1,33 @@
 function ProjectCard(props) {
     return (
-        <div className="col s12 l6 xl4">
-            <div className="card sticky-action card-m shadow">
-                <div className="card-image waves-effect waves-block waves-light img-container">
-                    <img
-                        className="activator img"
-                        src={props.prjDetail.img}
-                        alt={props.prjDetail.title+" image"}
-                        
-                    />
+        <div className="row prj-card">
+            <div className="col s12 l7 center-align">
+                <img
+                    className="prj-img z-depth-3"
+                    src={props.prjDetail.img}
+                    alt={props.prjDetail.title + " image"}
+
+                />
+            </div>
+            <div className="col s12 l5 prj-detail">
+                <p className="center-align txt-col2 tittle">
+                    {props.prjDetail.title}
+                </p>
+                <ul className="center-align">
+                    {
+                        props.prjDetail.detail.map((detail, index) => {
+                            return <li key={index}>{detail}</li>
+                        })
+                    }
+                </ul>
+                <div className="tech center-align">
+                    {
+                        props.prjDetail.tech.map((tech, index) => {
+                            return <span key={index}>{tech}</span>
+                        })
+                    }
                 </div>
-                <div className="card-content content-h">
-                    <span className="card-title activator grey-text text-darken-4">
-                        {props.prjDetail.title}<i className="material-icons right">more_vert</i>
-                    </span>
-                </div>
-                <div className="card-action center-align">
+                <div className="center-align">
                     <a
                         className="waves-effect waves-light btn btn-1"
                         target="_blank"
@@ -31,25 +43,6 @@ function ProjectCard(props) {
                         <i className="fab fa-github right" />
                         code
                     </a>
-                </div>
-                <div className="card-reveal">
-                    <span className="card-title grey-text text-darken-4">
-                        {props.prjDetail.title}<i className="material-icons right">close</i>
-                    </span>
-                    <div className="tech">
-                        {
-                            props.prjDetail.tech.map((tech, index) => {
-                                return <span key={index}>{tech}</span>
-                            })
-                        }
-                    </div>
-                    <ul className="collection">
-                    {
-                            props.prjDetail.detail.map((detail, index) => {
-                                return <li className="collection-item" key={index}>{detail}</li>
-                            })
-                        }
-                    </ul>
                 </div>
             </div>
         </div>
