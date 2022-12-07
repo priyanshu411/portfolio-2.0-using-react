@@ -36,15 +36,15 @@ function Footer() {
                                     <i className="far fa-envelope fa-2x" />
                                 </a>
                             </div>
-                            <p>Made with React by Priyanshu Gupta</p>
+                            <p>Made with ❤ by Priyanshu Gupta</p>
                             <a
+                                hidden
                                 className="white-text"
                                 href="https://www.vecteezy.com/free-vector/web-developer"
                                 target="_blank" rel="noreferrer"
                             >
                                 Web Developer Vectors by Vecteezy
                             </a>
-                            <p>© 2022 Priyanshu gupta, All rights reserved.</p>
                             <br />
                         </div>
                     </div>
