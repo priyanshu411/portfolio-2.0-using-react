@@ -29,6 +29,7 @@ function About() {
                                 src={main}
                                 className="responsive-img"
                                 alt="boy with laptop"
+                                draggable={false}
                             />
                         </div>
                         <div className="col s12 m6 xl7">
@@ -46,6 +47,7 @@ function About() {
                                 src={main}
                                 className="responsive-img"
                                 alt="boy with laptop"
+                                draggable={false}
                             />
                         </div>
                     </div>

@@ -6,6 +6,7 @@ function ProjectCard(props) {
                     className="prj-img z-depth-3"
                     src={props.prjDetail.img}
                     alt={props.prjDetail.title + " image"}
+                    draggable={false}
 
                 />
             </div>
