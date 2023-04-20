@@ -8,10 +8,20 @@ import bootstrapImg from "../images/skills-image/bootstrap.svg"
 import materializeImg from "../images/skills-image/materializecss.svg"
 import firebaseImg from "../images/skills-image/firebase.svg"
 import dbmsImg from "../images/skills-image/dbms.svg"
+import springJava from "../images/skills-image/spring-java.svg"
+import restApi from "../images/skills-image/rest-api.svg"
 
 const skill = [{
     tech: 'Java',
     img: javaImg
+},
+{
+    tech: 'Spring Boot',
+    img: springJava
+},
+{
+    tech: 'Rest API',
+    img: restApi
 },
 {
     tech: 'C',
