@@ -7,8 +7,7 @@ function About() {
     
     const intro = {
         _name: "I'm Priyanshu Gupta,",
-        heading: "A Web Developer",
-        about: "Hey, glad to see you here! I am a student of MCA, very passionate about programming and technology.I learned web development and made a variety of projects and am upgrading my skills in this field.Always ready to learn new technology."
+        about: "Experienced software engineer with Java, Spring Boot, RESTful APIs, Agile, and database skills. Also proficient in frontend technologies like HTML, CSS, JavaScript, and React.js. Let's connect to discuss collaboration"
     }
     const [style, setStyle] = useState(true);
     useEffect(() => {
@@ -33,9 +32,8 @@ function About() {
                             />
                         </div>
                         <div className="col s12 m6 xl7">
-                            <h4>Hi there!</h4>
+                            <h4 className="txt-col2">Hi there!</h4>
                             <h4 className="txt-col1">{intro._name}</h4>
-                            <h4 className="txt-col2">{intro.heading}</h4>
                             <p id="about">{intro.about}</p>
                             <div>
                                 <Link to="/resume" className="waves-effect waves-light btn btn-1"><i className="material-icons left">description</i>Resume</Link>
