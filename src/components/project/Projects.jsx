@@ -20,7 +20,7 @@ function Projects() {
 
             <section id="project">
                 <div>
-                    <h4 className="center-align txt-col1 heading">My Projects</h4>
+                    <h4 className="center-align txt-col1 heading">Projects</h4>
                     {
                         projectDetail.map((data, i) => {
                             return <ProjectCard prjDetail={data} key={i}></ProjectCard>
