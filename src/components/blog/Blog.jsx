@@ -16,7 +16,7 @@ function Blog() {
         <React.Fragment>
             <PreLoader myStyle={style} />
             <section className="container" id="blog">
-                <h4 className="center-align txt-col1 heading">MY Blogs</h4>
+                <h4 className="center-align txt-col1 heading">Blogs</h4>
                 <div className="row">
                     {
                         blog.map((data, index) => {
