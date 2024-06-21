@@ -10,6 +10,6 @@
 
  * <p style="display:flex">Materialize CSS &nbsp;<a href="https://materializecss.com/" target="blank"><img width="20" src="src/images/skills-image/materializecss.svg"></a></p>
   
-[priyanshugupta.live](https://priyanshugupta.live/)
+[priyanshugupta.live](https://priyanshu-gupta.netlify.app/)
 
 
